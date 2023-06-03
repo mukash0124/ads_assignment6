@@ -67,8 +67,4 @@ public class WeightedGraph<V> {
         return map.get(v).getAdjacentVertices();
     }
 
-    //public Iterable<Edge<V>> getEdges(V v) {
-    //    if (!hasVertex(v)) return null;
-    //    return map.get(v);
-    //}
 }
